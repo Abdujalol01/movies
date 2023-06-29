@@ -10,7 +10,7 @@ export default function Movie(props) {
           {Title}
         </span>
         <p>
-          {Year} <span className="right">{Type}</span>
+          {Year} <span className="right ">{Type}</span>
         </p>
       </div>
     </div>
