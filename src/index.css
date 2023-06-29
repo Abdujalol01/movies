@@ -17,3 +17,6 @@
 .radio-label:not(:last-child){
   margin-right: 1rem;
 }
+.movie-card{
+  height: 378px;
+}
