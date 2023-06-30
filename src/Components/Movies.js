@@ -7,7 +7,7 @@ export default function Movies(props) {
       movies.map((movie) => <Movie key={movie.imbdID} {...movie} />)
       ) : (
         <div className="error-page">
-        <h1>404 Error Page</h1>
+        <h1>404 Not Found</h1>
         </div>
         )}
         </div>
