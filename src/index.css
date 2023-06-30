@@ -43,7 +43,6 @@ html, button, input, select, textarea {
 }
 h1 {
   text-align: center;
-  margin: 120px 145px;
+  margin: 30px auto;
   font-size: 40px;
-  width: 100%;
 }
