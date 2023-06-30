@@ -1,22 +1,49 @@
-.header__nav{
-  padding:0px 40px;
+.header__nav {
+  padding: 0px 40px;
 }
-.content{
+.content {
   min-height: calc(100vh - 70px - 64px);
 }
-.movies{
+.movies {
   display: grid;
-  grid-template-columns: repeat(auto-fill , minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
 }
-.search-btn{
+.search-btn {
   position: absolute;
   top: 0;
   right: 0;
 }
-.radio-label:not(:last-child){
+.radio-label:not(:last-child) {
   margin-right: 1rem;
 }
-.movie-card{
+.movie-card {
   height: 378px;
+}
+
+
+/*======================
+404 page
+=======================*/
+.error-page{
+  display: grid!important;
+  grid-template-columns: 1fr;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background-color: #FDFAF5;
+}
+html, button, input, select, textarea {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  color: #bbb;
+}
+h1 {
+  text-align: center;
+  margin: 120px 145px;
+  font-size: 40px;
+  width: 100%;
 }

@@ -1,11 +1,16 @@
 import Movie from "./Movie";
 export default function Movies(props) {
-  const { movies } = props;
+  const { movies = [] } = props;
   return (
     <div className="movies">
-      {movies.map((movie) => (
-        <Movie key={movie.imdbID} {...movie} />
-      ))}
-    </div>
-  );
-}
+    {movies.length ? (
+      movies.map((movie) => <Movie key={movie.imbdID} {...movie} />)
+      ) : (
+        <div className="error-page">
+        <h1>404 Error Page</h1>
+        </div>
+        )}
+        </div>
+        );
+      }
+      
